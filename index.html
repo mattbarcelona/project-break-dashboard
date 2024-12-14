@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Project Brick</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box1">
+        <div id="tiempo">
+          <div id="timeP"></div>
+          <div id="infoHora"></div>
+        </div>
+        <div id="characterNumber">
+          <div>
+            <label for="numberCharacter">Número de caracteres:</label>
+            <input
+              id="numberCharacter"
+              type="number"
+              placeholder="Ingrese un número"
+            />
+            <button id="passwordRequest">Generar Contraseña</button>
+            <div id="passwordDisplayed"></div>
+          </div>
+        </div>
+      </div>
+      <div id="box2">
+        <div id="weather">
+          <div id="weatherDisplayed"></div>
+          <input id="city" type="text" placeholder="Ingresa una ciudad" />
+          <button id="cityBtn">Consultar</button>
+        </div>
+        <div id="myPicture"></div>
+        <div id="enlace">
+          <p>Añade aquí tus enlaces de interés</p>
+          <ul id="enlaceUl">
+            <li>
+              <input
+                id="nombreUrl"
+                type="text"
+                placeholder="nombre de tu enlace"
+              />
+            </li>
+            <li>
+              <input id="url" type="text" placeholder="pega aquí la url" />
+            </li>
+            <li><button id="butonEnlace">Añadir enlace</button></li>
+          </ul>
+          <div id="confirmacion"></div>
+          <div id="lista">
+            <ul id="listaEnlace"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
